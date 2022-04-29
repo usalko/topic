@@ -35,7 +35,7 @@ setup(
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3 :: Only',
-        'topiq :: Software Development',
+        'Topic :: Software Development',
     ],
     zip_safe=False,
     install_requires=[],
