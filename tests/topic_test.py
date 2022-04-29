@@ -2,10 +2,10 @@ from os.path import join
 from tempfile import TemporaryDirectory, gettempdir
 from unittest import TestCase
 
-from topic._topic_reader import _TopicReader
-from topic._topic_writer import _TopicWriter
-from topic.message import Message
-from topic.message_type import MessageType
+from topiq._topic_reader import _TopicReader
+from topiq._topic_writer import _TopicWriter
+from topiq.message import Message
+from topiq.message_type import MessageType
 
 
 class TopicTest(TestCase):

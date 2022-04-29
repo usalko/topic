@@ -10,18 +10,18 @@ standard_exclude = ('*.py', '*.pyc', '*$py.class', '*~', '.*', '*.bak', '*.orig'
 standard_exclude_directories = ('.*', 'CVS', '_darcs', './build', './dist', 'EGG-INFO', '*.egg-info')
 
 
-# Dynamically calculate the version based on topic.VERSION.
-version = __import__('topic').get_version()
+# Dynamically calculate the version based on topiq.VERSION.
+version = __import__('topiq').get_version()
 
 setup(
-    name='topic',
+    name='topiq',
     version=version,
-    description='Lightweigt embedded topics (based on kafka ideas)',
+    description='Lightweigt embedded topiqs (based on kafka ideas)',
     long_description=__doc__,
     license='Apache 2.0',
     author='Vanya Usalko',
     author_email='iusalko@eu.spb.ru',
-    url='https://github.com/usalko/topic',
+    url='https://github.com/usalko/topiq',
     packages=find_packages(),
     classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -35,7 +35,7 @@ setup(
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3 :: Only',
-        'Topic :: Software Development',
+        'topiq :: Software Development',
     ],
     zip_safe=False,
     install_requires=[],

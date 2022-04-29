@@ -1,7 +1,7 @@
 from unittest import TestCase
 
-from topic.message import Message
-from topic.message_type import MessageType
+from topiq.message import Message
+from topiq.message_type import MessageType
 
 
 class MessageTest(TestCase):
