@@ -16,7 +16,7 @@ version = __import__('topiq').get_version()
 setup(
     name='topiq',
     version=version,
-    description='Lightweigt embedded topiqs (based on kafka ideas)',
+    description='Lightweigt embedded topics (based on kafka ideas)',
     long_description=__doc__,
     license='Apache 2.0',
     author='Vanya Usalko',
